@@ -13,7 +13,6 @@ const App = () =>
     return (
         <React.Fragment>
             <Header />
-            {/* There is a small bug, when you edit a field, if you pressed the edit button again, it will print the old value to the form */}
             <Routes>
                 <Route path="/" element={<Navigate to="/brands"/>} />
                 <Route path="/brands" element={<AllBrands />}/>
